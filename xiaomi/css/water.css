@@ -1,0 +1,196 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+
+/*动感导航条*/
+.navinner,.header,.navn,.banner,.shop{width: 1226px; margin: 0 auto;}
+.navinner{
+	height: 100px;
+	margin-bottom: 1px;
+	background: url(../img/home/smallpic/1_06.jpg) no-repeat left center;
+}
+.nav_strops{
+	width: 720px;
+	height: 90px;
+	float: left;
+	margin-left: 180px;
+	padding-top: 10px;
+	
+}
+.navtou {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 60px;
+	padding-top: 30px;
+	float: left;
+}
+.navtitle{
+	font-size: 18px;
+	color: black;
+}
+.nav_child{
+	width: 100%;
+	position: absolute;
+	height:0px;
+	top:140px;
+	left:0px;
+	background: white;
+	overflow: hidden;
+	z-index: 10;
+	
+}
+.li_child{
+	margin: 10px 20px 0px 20px;
+	float:left;
+	cursor: pointer;
+}
+.li_child img{
+	width: 160px;
+	height: 110px;
+}
+.nav_bao {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.nav_bao img{
+	border-right:1px solid #EEEEEE;
+}
+.nav_p1{
+	margin-top: 10px;
+}
+.nav_p2{
+	color: orange;
+	margin-top: 5px;
+}
+.navinner form{
+	width: 260px;
+	height: 50px;
+	border: 1px solid #EEEEEE;
+	float: right;
+	margin-top: 25px;
+}
+.input_text{
+	width: 200px;
+	height: 50px;
+	float: left;
+	border-right: 1px solid #EEEEEE;
+}
+.input_btn{
+	width: 59px;
+	height: 50px;
+	float: right;
+	background: url(../img/home/smallpic/1_05.jpg) no-repeat center center;
+}
+
+/*背景*/
+.all{
+	width: 100%;
+	height: 1600px;
+	background: #F5F5F5;
+}
+
+/*小标题*/
+.header{
+	height: 40px;
+}
+.header p{
+	line-height: 40px;
+}
+
+/*小导航*/
+.navn{
+	height: 81px;
+	background: white;
+}
+.navn ul{
+	width: 1226px;
+	height: 81px;
+	background: white;
+}
+.navn li{
+	float: left;
+	width: 137px;
+	height: 81px;
+	font-size: 14px;
+	line-height: 81px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*背景图*/
+.banner{
+	height: 460px;
+	margin-bottom: 14px;
+}
+.banner img{
+	width: 1226px;
+	height: 460px;
+}
+/*商品*/
+.shop{
+	height: 980px;
+}
+.shop ul{
+	width: 1240px;
+	height: 980px;
+}
+.shop li{
+	width: 606px;
+	height: 490px;
+	float: left;
+	margin-bottom: 14px;
+	margin-right: 14px;
+	background: white;
+}
+.shop img{
+	width: 606px;
+	height: 360px;
+}
+.shop_xia{
+	width: 566px;
+	height: 99px;
+	padding: 30px 20px 0 20px;
+	border-top: 1px solid #F5F5F5;
+}
+.shop_left{
+	float: left;
+	height: 100px;
+	width: 310px;
+}
+.shop_na{
+	font-size: 20px;
+	margin-right: 20px;
+}
+.shop_nb{
+	font-size: 20px;
+	color: #FF6700;
+}
+.shop_left p{
+	font-size: 15px;
+	color: #757575;
+	margin-top: 15px;
+}
+.shop_right{
+	float: right;
+	height: 100px;
+	width: 256px;
+}
+.shop_but{
+	width: 160px;
+	height: 40px;
+	border: 1px solid #FF6700;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	margin-left: 80px;
+	color: #FF6700;
+	font-size: 14px;
+	cursor: pointer;
+}

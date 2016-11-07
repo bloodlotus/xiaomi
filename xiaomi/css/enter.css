@@ -1,0 +1,104 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background: #F9F9F9;
+}
+
+.big{
+	width: 856px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 140px;
+	background: white;
+	padding-top: 50px;
+}
+.logo{
+	width: 856px;
+	height: 55px;
+	background: url(../img/home/smallpic/1_06.jpg) no-repeat center;
+}
+.title{
+	width: 856px;
+	height: 61px;
+	text-align: center;
+	line-height: 61px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.mall{
+	width: 358px;
+	height: 334px;
+	margin: 0 auto;
+}
+.ce_phone{
+	width: 358px;
+	height: 48px;
+	border: 1px solid #E0E0E0;
+}
+.ce_p,.ce_pa{
+	width: 358px;
+	height: 48px;
+}
+.ce_pass{
+	width: 358px;
+	height: 48px;
+	border: 1px solid #E0E0E0;
+	margin-top: 20px;
+}
+.join{
+	width: 358px;
+	height: 48px;
+	background: #EF5B00;
+	color: white;
+	font-size: 20px;
+	line-height: 48px;
+	text-align: center;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.reg{
+	width: 358px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	margin-top: 30px;
+}
+.reg a{
+	cursor: pointer;
+	color: #8B8B8B;
+	font-size: 14px;
+}
+.reg span{
+	padding-left: 5px;
+}
+
+/*底*/
+.low{
+	width: 856px;
+	height: 17px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.low span{
+	padding-left: 5px;
+}
+.foot_p{
+	width: 856px;
+	height: 17px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+}

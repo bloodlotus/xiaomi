@@ -1,0 +1,66 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+
+.topnavbg{background: #333333;}
+.topnav{
+	margin: 0 auto;
+	width: 1226px;
+	height: 40px;
+	background: #333333;
+}
+.topnav-left{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+.topnav-left a,.topnav-middle a,.topnav-right a{
+	font-size:15px;
+	color: #B0B0B0;
+}
+.topnav-left span,.topnav-middle span{
+	margin-left: 3px;
+}
+.topnav-middle{
+	margin-left: 290px;
+	line-height: 40px;
+	float: left;
+}
+.topnav-right{
+	position: relative;
+	width: 110px;
+	height: 40px;
+	background: #424242;
+	float: right;
+	cursor: pointer;
+}
+.topnav-right img{
+	margin-top: 12px;
+	margin-left: 15px;
+	float: left;
+}
+.topnav-right span{
+	font-size:15px;
+	color: #B0B0B0;
+	margin-left: -4px;
+	line-height: 40px;
+}
+.shop-cat{
+	line-height: 100px;
+	text-align: center;
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	background: white;
+	box-shadow: 0px 1px 1px 1px #888888;
+	display: none;
+}

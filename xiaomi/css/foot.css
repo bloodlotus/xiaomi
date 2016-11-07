@@ -1,0 +1,139 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+
+.base,.floor{
+	width:1226px;
+	height: 272px;
+	margin: 0 auto;
+}
+
+.base_title{
+	width: 1226px;
+	height: 80px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.base_title ul{
+	width: 1226px;
+	height: 80px;
+}
+.base_title li{
+	float: left;
+	width: 210px;
+	height: 25px;
+	text-align: center;
+	padding-right:30px ;
+	border-right: 1px solid #E0E0E0;
+	margin-top: 30px;
+}
+.base_title li a{
+	color: #616161;
+	line-height: 25px;
+	font-size: 18px;
+}
+.base_title li img{
+	float: left;
+	line-height: 25px;
+	margin-left:50px
+}
+.base_title .tit_lose{
+	border: 0;
+}
+.base_con{
+	width: 1226px;
+	height: 112px;
+	padding: 40px 0px;
+}
+.base_conleft{
+	width: 975px;
+	height: 112px;
+	float: left;
+	border-right: 1px solid #E0E0E0 ;
+}
+.base_con dl{
+	width: 160px;
+	height: 112px;
+	float: left;
+}
+.base_con dt{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.base_con dd{
+	color: #757575;
+	line-height: 20px;
+}
+.base_conright{
+	width: 250px;
+	height: 112px;
+	float: right;
+}
+.base_conright p{
+	text-align: center;
+	line-height: 20px;
+}
+.base_p1{
+	color: #ff6700;
+	font-size: 22px;
+}
+.base_div{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #ff6700;
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*底*/
+.floorbg{
+	background: #FAFAFA;
+}
+.floor{
+	height: 106px;
+	background: #FAFAFA;
+	padding: 30px 0px;
+	margin-bottom: 20px;
+}
+.floor_shang{
+	width: 1226px;
+	height: 57px;
+	background: url(../img/home/smallpic/1_06.jpg) no-repeat left;
+}
+.floor_left{
+	width: 749px;
+	height: 57px;
+	float: left;
+	margin-left: 65px;
+	color: #757575;
+}
+.floor_left p{
+	margin-top: 5px;
+}
+.floor_right{
+	width: 376px;
+	height: 57px;
+	float: right;
+}
+.floor_right img{
+	float: left;
+	margin-left: 10px;
+}
+.floor_xia{
+	width: 1226px;
+	height: 80px;
+	background: url(../img/home/smallpic/22.PNG) no-repeat center;
+}
+.floor_xia img{
+	width: 277px;
+	height: 24px;
+}
+

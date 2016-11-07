@@ -1,0 +1,133 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+body{
+	width: 100%;
+	height: 100%;
+	background: #F9F9F9;
+}
+.bigmidd{
+	width: 856px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 140px;
+	background: white;
+}
+.logo{
+	width: 856px;
+	height: 55px;
+	background: url(../img/home/smallpic/1_06.jpg) no-repeat center;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+.input{
+	width: 332px;
+	height: 370px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.form{
+	width: 786px;
+	height: 339px;
+	margin:  0 auto;
+}
+.rebox{
+	width: 332px;
+	height: 339px;
+	margin: 0 auto;
+}
+.box_a{
+	width: 332px;
+	height: 40px;
+	border: 1px solid #E8E8E8;
+	margin-top: 40px;
+}
+.box_a p{
+	width: 276px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	margin-left: 10px;
+}
+.box_a a{
+	float: right;
+	width: 45px;
+	height: 40px;
+	background:url(../img/home/smallpic/1_04.jpg) no-repeat center center;
+	border-left: 1px solid #E8E8E8;
+}
+.box_phone,.box_pass,.box_padd{
+	width: 332px;
+	height: 40px;
+	margin-top: 20px;
+	border: 1px solid #E8E8E8;
+}
+.box_text,.box_password,.box_passdd{
+	width: 332px;
+	height: 40px;
+	line-height: 40px;
+	color: #9D9D9D;
+}
+.box_val{
+	width: 332px;
+	height: 40px;
+	margin-top: 20px;
+}
+.val_left{
+	float: left;
+	width: 188px;
+	height: 38px;
+	border: 1px solid #E8E8E8;
+}
+.val_right{
+	float: right;
+	width: 140px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.ce{
+	width: 332px;
+	height: 42px;
+	margin-top: 30px;
+	background: #FF6700;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+}
+.pro{
+	margin-top: 10px;
+}
+
+/*底*/
+.low{
+	width: 856px;
+	height: 17px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.low span{
+	padding-left: 5px;
+}
+.foot_p{
+	width: 856px;
+	height: 17px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+}

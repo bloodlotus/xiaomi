@@ -1,0 +1,201 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font:12px "宋体","微软雅黑","Arial Narrow",HELVETICA;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+em,i,b,strong{font-style:normal; font-weight:100;}
+a{text-decoration:none;outline: none;}
+ul,li,ol{list-style:none;}
+input{ float:left;border:0; outline:none;}
+img,fieldset{border:0;}
+img{display:block;}
+
+
+.head,.nav,.goods{width: 1226px; margin: 0 auto;}
+.headd{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #FF6700;
+}
+.head{
+	height: 74px;
+}
+.head_left{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-top: 18px;
+}
+.head_right{
+	float: right;
+	width: 74px;
+	height: 40px;
+	margin-top: 40px;
+	color: #757575;
+}
+.head_right a{
+	cursor: pointer;
+}
+.head_right span{
+	padding-left: 5px;
+}
+
+/*导航栏*/
+.nav{
+	height: 76px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.nav ul{
+	width: 1226px;
+	height: 76px;
+}
+.nav li{
+	width: 111px;
+	height: 76px;
+	float:left;
+	color: #333;
+	font-size: 14px;
+	line-height: 76px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*商品*/
+.goods{
+	height: 650px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.good_left{
+	width: 600px;
+	height: 600px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	position: relative;
+}
+.good_right img{
+	width: 100%;
+	height: 100%;
+}
+.good_right{
+	width: 544px;
+	height: 520px;
+	float: right;
+	margin-top: 50px;
+}
+.right_title{
+	width: 544px;
+	height: 61px;
+	line-height: 61px;
+	border-bottom: 1px solid #FF6700;
+}
+.right_title span{
+	width: 207px;
+	height: 56px;
+	font-size: 30px;
+}
+.span_tit{
+	color: #FF6700;
+}
+.right_con{
+	width: 544px;
+	height: 240px;
+	margin-top: 60px;
+}
+.con_a,.con_c{
+	width: 544px;
+	height: 56px;
+	line-height: 56px;
+}
+.con_a h2,.con_c h2{
+	float: left;
+	font-size: 20px;
+}
+.con_a span{
+	font-size: 12px;
+	color: #B0B0B0;
+	margin-left: 15px;
+}
+.con_b,.con_d{
+	width: 554px;
+	height: 64px;
+}
+.con_b ul,.con_d ul{
+	width: 554px;
+	height: 64px;
+}
+.con_b li,.con_d li{
+	float: left;
+	width: 260px;
+	height: 50px;
+	border: 1px solid  #B0B0B0;
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.result{
+	width: 544px;
+	height: 56px;
+	margin: 26px 0px;
+}
+.result h2{
+	font-size: 14px;
+}
+.result p{
+	margin-top: 10px;
+	color: #666666;
+}
+.good_btn{
+	width: 180px;
+	height: 50px;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #FF6700;
+	color: #FF6700;
+	cursor: pointer;
+}
+
+/*放大镜*/
+.good_mark{
+	width: 600px;
+	height: 600px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 10;
+	
+}
+.good_xiao{
+	width:150px;
+	height: 150px;
+	background: #b6b6b6;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.6;
+	filter: alpha(opacity=0);
+	z-index: 1;
+	display: none;
+}
+.good_bg{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: 600px;
+	top: 50px;
+	overflow: hidden;
+	display: none;
+}
+.good_da{
+	width: 1200px;
+	height: 1200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.good_da img{
+	width: 100%;
+	height: 100%;
+}
