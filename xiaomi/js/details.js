@@ -25,6 +25,54 @@ $(function(){
 				$(this).css("color", "#FF6700");
 			});
 			
+			//添加商品cookie json
+			$(".good_btn").click(function(){
+				window.open("shop.html");
+				var id = $(this).attr("id");
+				var first = $.cookie("goods") ==null ? true : false;
+				var same = false;
+				if(first){
+					$.cookie("goods", "[{id: "+ id +", num: 1}]", {expires: 7});
+				}else{
+					var str = $.cookie("goods");
+					var arr = eval(str);
+					for(var i in arr){
+						if(arr[i].id == id){
+							arr[i].num++;
+							var cookieStr = JSON.stringify(arr);
+							$.cookie("goods", cookieStr, {expires: 7});
+							same = true;
+						}
+					}
+					if(!same){
+						var obj = {id: id, num: 1};
+						arr.push(obj);
+						var cookieStr = JSON.stringify(arr);
+						$.cookie("goods", cookieStr, {expires: 7});
+					}
+				}
+				sc_car();
+			});
+			
+			function sc_car(){
+				var sc_str = $.cookie("goods");
+				if(sc_str){
+					var sc_arr = eval(sc_str);
+					var sc_num = 0;
+					for(var i in sc_arr){
+						sc_num += Number(sc_arr[i].num);
+					}
+				}
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			//放大镜
 			var Xiao = document.getElementsByClassName("good_xiao")[0];
 			var Da = document.getElementsByClassName("good_da")[0];

@@ -137,8 +137,8 @@ $(function(){
 			alert("信息有误");
 		}else{
 			alert("成功注册");
-			$.cookie("username", $(".box_text").val(), {expires: 5});
-			$.cookie("password", $(".box_password").val(), {expires: 5});
+			$.cookie("username", $(".box_text").val(), {expires: 7});
+			$.cookie("password", $(".box_password").val(), {expires: 7});
 			window.open("enter.html");
 		}
 	})
